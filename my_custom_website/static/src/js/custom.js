@@ -5,7 +5,6 @@ odoo.define('my_custom_website.custom', function (require) {
         selector: '.custom-section',
         start: function () {
             console.log('Custom widget loaded!');
-            // Add your JavaScript logic here
             return this._super.apply(this, arguments);
         },
     });

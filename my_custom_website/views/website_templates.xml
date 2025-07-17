@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="custom_page" name="Custom Page" inherit_id="website.layout">
+        <xpath expr="//div[@id='wrap']" position="replace">
+            <div id="wrap" class="oe_structure">
+                <section class="custom-section">
+                    <h1>My Custom Website</h1>
+                    <p><t t-esc="custom_data"/></p>
+                    <div class="custom-content">
+                        <p>Welcome to my custom-built website in Odoo 18!</p>
+                    </div>
+                </section>
+            </div>
+        </xpath>
+    </template>
+</odoo>
