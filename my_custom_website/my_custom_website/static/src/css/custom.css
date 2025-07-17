@@ -1,0 +1,9 @@
+.custom-section {
+    background-color: #f8f9fa;
+    padding: 50px;
+    text-align: center;
+}
+.custom-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
